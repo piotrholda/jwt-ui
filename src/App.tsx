@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import  Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Header';
 import Login from './Login';
@@ -10,8 +8,8 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <Container className="p-3">
-    <Header/>
-    <Login/>
+      <Header/>
+      <Login/>
     </Container>
     )
   };
