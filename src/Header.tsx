@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, NavbarBrand } from "react-bootstrap";
 
 const Header = () => {
     return (
-        <Navbar>
+        <Navbar bg="dark" data-bs-theme="dark">
           <Container>
             <NavbarBrand href="#">JWT UI</NavbarBrand>
             <Navbar.Collapse id="basic-navbar-nav">
