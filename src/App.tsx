@@ -7,11 +7,11 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <Container className="p-3">
-      <Header/>
-      <Login/>
+    <Container className="container-lg">
+      <Header />
+      <Login />
     </Container>
-    )
-  };
+  )
+};
 
 export default App;
